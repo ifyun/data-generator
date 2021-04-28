@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "generator.locale",
+      "type": "java.util.Locale",
+      "description": "国家."
+    },
+    {
+      "name": "generator.tables",
+      "type": "com.github.imcloudfloating.generator.config.TableConfig",
+      "description": "数据表配置."
+    }
+  ]
+}

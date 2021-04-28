@@ -1,0 +1,9 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 1
+logging:
+  level:
+    root: error

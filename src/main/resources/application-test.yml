@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: "jdbc:sqlite:F:/dev/test.db"
+generator:
+  locale: en_US
+  tables:
+    - table: employee
+      count: 5
+      columns:
+        first_name: Name.firstName
+        last_name: Name.lastName
+        job: Job.title
+        phone_number: PhoneNumber.cellPhone
+        address: Address.streetAddress
